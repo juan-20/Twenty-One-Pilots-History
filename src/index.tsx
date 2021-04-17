@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { Global } from './global';
+import Landing from './Landing';
 import reportWebVitals from './reportWebVitals';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Global>
+      <Landing />
+    </Global>
   </React.StrictMode>,
   document.getElementById('root')
 );
