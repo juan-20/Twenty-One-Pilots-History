@@ -2,7 +2,9 @@ import { ReactNode } from 'react';
 import blurryface from '../../assets/images/albuns-cover/blurryface.jpg';
 import scaled_and_Icy from '../../assets/images/albuns-cover/scaled_and_Icy.jpg';
 import trench from '../../assets/images/albuns-cover/trench.jpg';
+import Burger from './Burger/Burger';
 import { Container } from './styles';
+
 
 
 
@@ -34,9 +36,15 @@ function NavBar() {
             <h1>Scaled and  Icy</h1>
             <img src={scaled_and_Icy} alt="Clique aqui para saber sobre o album" />
           </div>
-
-
         </div>
+
+        <div className="content-burger">
+          <div className="content-burger-btn">
+            <Burger />
+          </div>
+        </div>
+
+
       </div>
 
 

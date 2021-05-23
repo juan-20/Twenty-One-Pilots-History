@@ -116,6 +116,10 @@ background: linear-gradient(90deg, rgba(245,123,171,1) 0%, rgba(131,204,221,1) 1
 }
 }
 
+&-burger{
+    display: none;
+}
+
 }
 
 
@@ -127,37 +131,28 @@ background: linear-gradient(90deg, rgba(245,123,171,1) 0%, rgba(131,204,221,1) 1
      }
         width: 100%;
         height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
      .content{
          &-title{
              font-size: 1.2rem;
          }
          &-albuns{
-            width: 70%;
-            height:100%;
-            background: green;
-            display: flex;
-            flex-direction: row;
-            &-blurryface{
-                >img{
-                    :hover{
-                    margin-top: 60%;
-                    }
+            display: none;
+         }
+
+         &-burger{
+             display: inline;
+                padding-right: 40px;
+                font-size: 1.2rem;
+                &-btn{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                 }
-            }
-            &-trench{
-                >img{
-                    :hover{
-                    margin-top: 60%;
-                    }
-                }
-            }
-            &-icy{
-                >img{
-                    :hover{
-                    margin-top: 60%;
-                    }
-                }
-            }
+             
+            
          }
      }
 
