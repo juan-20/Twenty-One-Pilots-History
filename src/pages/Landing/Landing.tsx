@@ -4,7 +4,7 @@ function Landing() {
   return (
     <>
       <NavBar />
-      <h1>testeeeeeeeeeeeee</h1>
+      <h1>Em breve</h1>
     </>
   );
 }
