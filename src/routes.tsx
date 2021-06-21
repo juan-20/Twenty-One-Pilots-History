@@ -4,12 +4,12 @@ import Landing from "./pages/Landing/Landing";
 import Trench from "./pages/Trench/Trench";
 
 
-const Routes: React.FC = () => {
+function Routes() {
     return (
         <BrowserRouter>
             <Switch>
                 <Route path="/" exact component={Landing} />
-                <Route path="/trench" exact component={Trench} />
+                <Route path="/trench" component={Trench} />
             </Switch>
         </BrowserRouter>
     );

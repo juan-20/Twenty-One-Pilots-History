@@ -3,9 +3,7 @@ import NavBar from '../../components/NavBar';
 function Landing() {
   return (
     <>
-      <NavBar
-      // logoUrl={'../../../assets/'}
-      />
+      <NavBar />
       <h1>testeeeeeeeeeeeee</h1>
     </>
   );

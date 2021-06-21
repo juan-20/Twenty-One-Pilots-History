@@ -8,7 +8,7 @@ const Ul = styled.ul`
   list-style: none;
   display: flex;
   flex-flow: row nowrap;
-  margin-top: 50px;
+  margin-top: 100px;
   border: 2px solid transparent;
 
   li {
@@ -72,7 +72,7 @@ background: linear-gradient(90deg, rgba(245,123,171,1) 0%, rgba(131,204,221,1) 1
     right: 0;
     height: 100vh;
     width: 300px;
-    padding-top: 3.5rem;
+    padding-top: 3rem;
     transition: transform 0.3s ease-in-out;
 
     li {
@@ -87,15 +87,16 @@ const RightNav = ({ open }) => {
 
       <div className="blu">
         <li>Blurryface
-      </li>
+        </li>
         <img src={blurryface} alt="Clique aqui para saber sobre o album Trench" />
       </div>
-
-      <div className="trench">
-        <li>Trench
-        </li>
-        <img src={trench} alt="Clique aqui para saber sobre o album Trench" />
-      </div>
+      <a href="/trench">
+        <div className="trench">
+          <li>Trench
+          </li>
+          <img src={trench} alt="Clique aqui para saber sobre o album Trench" />
+        </div>
+      </a>
 
 
       <div className="sai">
